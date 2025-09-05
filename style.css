@@ -1,29 +1,27 @@
-body{
-    margin: 0px;
+body {
+  margin: 0px;
 }
 
-.imagefeature
-{
-    height:100vh;
-    background-size: cover;
-    position: relative;
+.imagefeature {
+  height: 100vh;
+  background-size: cover;
+  position: relative;
 }
-.bimage{
-    background-image: url('./images/p1.avif');
-}
-
-.simage
-{
-    background-image: url('./images/t1.jpg');
+.bimage {
+  background-image: url("./images/p1.avif");
 }
 
-h1{
-    color: crimson;
-    font-family: cursive;
+.simage {
+  background-image: url("./images/onlinethanku.jpg");
 }
-h5{
-    text-align: center;
-    font-size: medium;
-    color:brown;
-    font-family: monospace;
+
+h1 {
+  color: crimson;
+  font-family: cursive;
+}
+h5 {
+  text-align: center;
+  font-size: medium;
+  color: brown;
+  font-family: monospace;
 }
