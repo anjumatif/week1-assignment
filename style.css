@@ -2,6 +2,13 @@ body {
   margin: 0px;
 }
 
+header {
+  top: 0;
+  left: 100px;
+  position: fixed;
+  z-index: 1;
+}
+
 .imagefeature {
   height: 100vh;
   background-size: cover;
@@ -12,7 +19,7 @@ body {
 }
 
 .simage {
-  background-image: url("./images/onlinethanku.jpg");
+  background-image: url("./images/t2.jpg");
 }
 
 h1 {
@@ -24,4 +31,29 @@ h5 {
   font-size: medium;
   color: brown;
   font-family: monospace;
+}
+
+.click-box {
+  position: sticky;
+  bottom: 225px;
+  left: 125px;
+  color: bisque;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+}
+
+.tabs {
+  color: crimson;
+  font-size: 25px;
+  width: 200px;
+  height: 200px;
 }
