@@ -11,6 +11,12 @@ body{
 .bimage{
     background-image: url('./images/p1.avif');
 }
+
+.simage
+{
+    background-image: url('./images/t1.jpg');
+}
+
 h1{
     color: crimson;
     font-family: cursive;
