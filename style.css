@@ -57,3 +57,6 @@ h5 {
   width: 200px;
   height: 200px;
 }
+.wimage {
+  background-image: url("./images/p1.avif");
+}
